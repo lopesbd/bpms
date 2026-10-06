@@ -1,0 +1,19 @@
+# Configurações com senhas (ficam só no servidor ou na máquina local)
+config.php
+config.local.php
+public_html/app/config.php
+.env
+
+# Anexos enviados pelos usuários
+storage/
+
+# Credenciais e backups de banco
+database/.credenciais*
+backup*.sql
+*.bak
+
+# Logs e arquivos do sistema
+*.log
+error_log
+.DS_Store
+Thumbs.db
